@@ -1,0 +1,236 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-image: url(img/tlo.jpg);
+    background-size: cover;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.pojemnik{
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+}
+header h1{
+    color: white;
+    float: left;
+    top: 15px;
+    background-image: url(img/gothic\ remake.jpg);
+}
+.menu{
+    background-image: url(img/gothic\ remake.jpg);
+    text-align: center;
+    text-decoration: none;
+}
+.menu ul{
+    display: inline-flex;
+    list-style: none;
+    color: white;
+}
+.menu ul li
+{
+    float: left;
+    width: 200px;
+    opacity: .8;
+    line-height: 40px;
+    text-align: center;
+    background-image: url(img/gothic\ remake.jpg);
+    color: #fff;
+    cursor: pointer;
+}
+input
+{
+    border-radius: 30px;
+}
+.menu ul ul{
+    display: block;
+}
+.menu ul li ul li{
+    display: none;
+}
+.menu ul li:hover{
+    background: #2bab0d;
+    border-radius: 3px;
+    cursor: pointer;
+    border-radius: 18px;
+}
+.menu ul li:hover ul li{
+    display: block;
+    
+}
+.menu ul li a{
+    color: #fff;
+}
+.wrapper
+{
+    height: 90px;
+    width: 350px;
+    border-radius: 25px;
+    animation: animate 1.5s linear infinite;
+}
+.wrapper .display
+{
+    position: absolute;
+    /* opacity: 0; */
+    height: 80px;
+    width: 340px;
+    text-align: center;
+    padding: 5px; 
+    border-radius: 25px;
+}
+.wrapper span
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+.wrapper .display #time
+{
+    line-height: 85px;
+    color: #fff;
+    font-size: 30px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    border-radius: 25px;
+    background: linear-gradient(135deg, #14ffe9, #ffeb3b, #ff00e0);
+    animation: animate 1.5s linear infinite;
+}
+@keyframes animate{
+    100%{
+        filter: hue-rotate(360deg);
+    }
+}
+.wrapper span
+{
+    height: 00%;
+    width: 100%;
+    background: inherit;
+}
+.wrapper span:first-child
+{
+    filter: blur(10px);
+}
+.wrapper span :last-child
+{
+    filter: blur(20px);
+}
+nav
+{
+    flex: 1px;
+    text-align: center;
+}
+nav h1
+{
+    float: left;
+    font-family: 'Arial' sans-serif;
+}
+.tabela table
+{
+    float: right;
+    margin-left: 20px;
+}
+.tabela table tr td
+{
+        border: 1px solid white;
+        border-collapse: collapse;
+        position: relative;
+        margin-left: 20px;
+}
+tr, td
+{
+    background-color: #262626;
+    color: #fff;
+    cursor: pointer;
+    margin-left: 20px;
+}
+.tabela table:hover td
+{   
+    background-color: #2bab0d;
+}
+nav h1 p
+{
+    margin-left: 20px;
+}
+audio
+{
+    float: left;
+    margin-left: 100px;
+}
+audio source
+{
+    background-color: #262626;
+    color: #fff;
+}
+.text p
+{
+    color: #fff;
+    text-align: justify;
+    margin: 40px;
+    margin-left: 20px;
+}
+.text1 h3
+{
+    color: #fff;
+    margin-left: 20px;
+}
+.text1 p
+{
+    margin-left: 20px;
+    text-align: justify;
+}
+.text3 p
+{
+    margin-top: 230px;
+    text-align: justify;
+}
+.text3 img
+{
+    float: left;
+    width: 300px;
+    height: 260px;
+    padding:  0 10px 0 0px;
+}
+.text1 h3
+{
+    color: #fff;
+    margin-left: 20px;
+}
+.text1 p
+{
+    margin-left: 20px;
+    text-align: justify;
+}
+.text1 p
+{
+    margin-top: 20px;
+    text-align: justify;
+}
+.text1 ol li
+{
+    margin-left: 20px;
+    text-align: justify;
+    color: #fff;
+}
+.text1 ul li
+{
+    list-style: inside;
+    color: #fff;
+    margin-left: 35px;
+}
+.text2 h3
+{
+    background-color: #262626;
+    width: 700px;
+    height: 360px;
+    font-size: 2px;
+    text-align: center;
+}
+.stopka footer
+{
+    text-align: center;
+    font-size: 16px;
+    color: #fff;
+    background-color: #999;
+}
